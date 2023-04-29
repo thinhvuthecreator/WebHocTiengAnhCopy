@@ -210,20 +210,21 @@ section{
 }
 
 .product-box{
+    margin-top: 70px;
     position: relative;
     background-color: rgb(138, 156, 168);
-    height: 250px;
+    height: 280px;
     border-radius: 20px;
 }
 
 .product-box .button{
     position: absolute;
-    left: 30%;
+    left: 33%;
     top: 80%;
 }
 
 .product-box ul li{
-   margin-top: 12px;
+   margin-top: 15px;
    margin-bottom: 12px;
    margin-left: 30px;
     color: white;
@@ -240,4 +241,12 @@ section{
     font-size: 80%;
 }
   
-
+.product-section .row{
+    position: relative;
+}
+.product-section .row h2{
+    margin-top: 30px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
